@@ -211,10 +211,10 @@ Locations = {
             },
         },
         ["K4MB1Quarry"] = { -- K4MB1's Mineshaft in the quarry
-            Enable = false,
+            Enable = true,
             Job = nil,
             Blip = {
-                Enable = false,
+                Enable = true,
                 name = "Mining Cave",
                 coords = vec4(2937.98, 2744.81, 43.28, 281.59),
                 sprite = 527,
@@ -276,7 +276,7 @@ Locations = {
             },
         },
         ["K4MB1Shaft"] = { -- K4MB1's Mineshaft Replacement
-            Enable = false,
+            Enable = true,
             Job = nil,
             Blip = {
                 Enable = true,
