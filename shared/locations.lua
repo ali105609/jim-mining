@@ -89,7 +89,7 @@ Locations = {
                 },
             },
             Store = {
-                { name = "Foundary Store", coords = vec4(1074.89, -1988.19, 30.89, 235.07), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
+                { name = "Foundary Store", coords = vec4(1074.89, -1988.19, -100, 235.07), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
             },
             Smelting = {
                 { blipEnable = false, name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1,  },
@@ -117,7 +117,7 @@ Locations = {
                 col = 81,
             },
             Store = {
-                { name = "Mine", coords = vec4(-594.96, 2091.3, 131.47, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
+                { name = "Mine", coords = vec4(-594.96, 2091.3, -100, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
             },
             Lights = {
                 Enable = true,
@@ -184,7 +184,7 @@ Locations = {
                 col = 81,
             },
             Store = {
-                { name = "Quarry", coords = vec4(2960.9, 2754.14, 43.71, 204.58), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
+                { name = "Quarry", coords = vec4(2960.9, 2754.14, -100, 204.58), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
             },
             Lights = {
                 Enable = true,
