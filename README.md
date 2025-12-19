@@ -95,11 +95,14 @@
     },
 
     -- Extras
-    sulfur = { label = "Sulfur", weight = 150, stack = true, close = false, description = "Flammable",
+    sulfur = { label = "Sulfur", weight = 150, stack = true, close = false, description = "",
         client = { image = "sulfur.png", }
     },
-    coal = { label = "coal", weight = 150, stack = true, close = false, description = "Flammable",
+    coal = { label = "Coal", weight = 150, stack = true, close = false, description = "",
         client = { image = "coal.png", }
+    },
+    charcoal = { label = "Charcoal", weight = 150, stack = true, close = false, description = "",
+        client = { image = "charcoal.png", }
     },
 
     -- Raw Gems

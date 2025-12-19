@@ -5,7 +5,7 @@ Crafting = {
 		Recipes = {
 		--  { ["output"] 		= { ["input"] = 1, }, ['input_amount'] = 2 },
 			{ ["sulfur"] 		= { ["sulfurore"] = 3 } },
-			{ ["ironnugget"] 			= { ["ironore"] = 3 } },
+			{ ["ironnugget"] 	= { ["ironore"] = 3 } },
 			{ ["leadnugget"] 	= { ["leadore"] = 3 } },
 			{ ["coppernugget"] 	= { ["copperore"] = 3 } },
 			{ ["charcoal"] 		= { ["coal"] = 3 } },
