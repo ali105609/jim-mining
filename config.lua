@@ -19,7 +19,7 @@ Config = {
 								-- Changes system to one based on rarity of ores specified in setMiningTable below
 								-- Every ore that spawns will give specific ores
 
-		K4MB1Cart = true,		-- If using k4mb1's shaftcave mlo + caveprops
+		K4MB1Cart = false,		-- If using k4mb1's shaftcave mlo + caveprops
 								-- Allow players to use a minecart to get to the chambers faster
 								-- Add's target option to the store ped at the mine shaft
 

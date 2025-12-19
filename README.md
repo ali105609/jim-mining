@@ -67,16 +67,16 @@
     goldore = { label = "Gold Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "goldore.png", }
     },
-    uncut_sapphire = { label = "Uncut Emerald", weight = 100, stack = true, close = false, description = "",
+    uncut_sapphire = { label = "Uncut Sapphire", weight = 100, stack = true, close = false, description = "",
         client = { image = "sapphireuncut.png", }
     },
     uncut_ruby = { label = "Uncut Ruby", weight = 100, stack = true, close = false, description = "",
         client = { image = "rubyuncut.png", }
     },
-    uncut_emerald = { label = "Uncut Diamond", weight = 100, stack = true, close = false, description = "",
+    uncut_emerald = { label = "Uncut Emerald", weight = 100, stack = true, close = false, description = "",
         client = { image = "emeralduncut.png", }
     },
-    uncut_diamond = { label = "Uncut Sapphire", weight = 100, stack = true, close = false, description = "",
+    uncut_diamond = { label = "Uncut Diamond", weight = 100, stack = true, close = false, description = "",
         client = { image = "diamonduncut.png", }
     },
 
