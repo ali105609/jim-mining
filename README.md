@@ -41,177 +41,177 @@
 # Steps for Qbox
 - Add Inventory Items
 
-    -- JIM-MINING --
-    stone = { label = "Stone", weight = 2000, stack = true, close = false, description = "Stone woo",
+    -- JIM-MINING
+    stone = { label = "Stone", weight = 150, stack = true, close = false, description = "",
         client = { image = "stone.png", }
     },
     -- Ores
-    ironore = { label = "Iron Ore", weight = 1000, stack = true, close = false, description = "Iron, a base ore.",
+    ironore = { label = "Iron Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "ironore.png", }
     },
-    leadore = { label = "Lead Ore", weight = 1000, stack = true, close = false, description = "Lead, for the opps.",
+    leadore = { label = "Lead Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "leadore.png", }
     },
-    copperore = { label = "Copper Ore", weight = 1000, stack = true, close = false, description = "Copper, a base ore.",
+    copperore = { label = "Copper Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "copperore.png", }
     },
-    sulfurore = { label = "Sulfur Ore", weight = 1000, stack = true, close = false, description = "Sulfur, a base ore.",
+    sulfurore = { label = "Sulfur Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "sulfurore.png", }
     },
-    silverore = { label = "Silver Ore", weight = 1000, stack = true, close = false, description = "Silver Ore",
+    silverore = { label = "Silver Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "silverore.png", }
     },
-    goldore = { label = "Gold Ore", weight = 1000, stack = true, close = false, description = "Gold Ore",
+    goldore = { label = "Gold Ore", weight = 100, stack = true, close = false, description = "",
         client = { image = "goldore.png", }
     },
-    uncut_sapphire = { label = "Uncut Emerald", weight = 100, stack = true, close = false, description = "A rough Emerald",
+    uncut_sapphire = { label = "Uncut Emerald", weight = 100, stack = true, close = false, description = "",
         client = { image = "sapphireuncut.png", }
     },
-    uncut_ruby = { label = "Uncut Ruby", weight = 100, stack = true, close = false, description = "A rough Ruby",
+    uncut_ruby = { label = "Uncut Ruby", weight = 100, stack = true, close = false, description = "",
         client = { image = "rubyuncut.png", }
     },
-    uncut_emerald = { label = "Uncut Diamond", weight = 100, stack = true, close = false, description = "A rough Diamond",
+    uncut_emerald = { label = "Uncut Diamond", weight = 100, stack = true, close = false, description = "",
         client = { image = "emeralduncut.png", }
     },
-    uncut_diamond = { label = "Uncut Sapphire", weight = 100, stack = true, close = false, description = "A rough Sapphire",
+    uncut_diamond = { label = "Uncut Sapphire", weight = 100, stack = true, close = false, description = "",
         client = { image = "diamonduncut.png", }
     },
 
     -- Nuggets
-    ironnugget = { label = "Iron Nugget", weight = 1000, stack = true, close = false, description = "",
+    ironnugget = { label = "Iron Nugget", weight = 75, stack = true, close = false, description = "",
         client = { image = "ironnugget.png", }
     },
-    leadnugget = { label = "Lead Nugget", weight = 1000, stack = true, close = false, description = "",
+    leadnugget = { label = "Lead Nugget", weight = 75, stack = true, close = false, description = "",
         client = { image = "leadnugget.png", }
     },
-    coppernugget = { label = "Copper Nugget", weight = 1000, stack = true, close = false, description = "",
+    coppernugget = { label = "Copper Nugget", weight = 75, stack = true, close = false, description = "",
         client = { image = "coppernugget.png", }
     },
-    silvernugget = { label = "Silver Nugget", weight = 1000, stack = true, close = false, description = "",
+    silvernugget = { label = "Silver Nugget", weight = 75, stack = true, close = false, description = "",
         client = { image = "silvernugget.png", }
     },
-    goldnugget = { label = "Gold Nugget", weight = 1000, stack = true, close = false, description = "",
+    goldnugget = { label = "Gold Nugget", weight = 75, stack = true, close = false, description = "",
         client = { image = "goldnugget.png", }
     },
 
     -- Extras
-    sulfur = { label = "Sulfur", weight = 150, stack = true, close = false, description = "",
+    sulfur = { label = "Sulfur", weight = 75, stack = true, close = false, description = "",
         client = { image = "sulfur.png", }
     },
-    coal = { label = "Coal", weight = 150, stack = true, close = false, description = "",
+    coal = { label = "Coal", weight = 75, stack = true, close = false, description = "",
         client = { image = "coal.png", }
     },
-    charcoal = { label = "Charcoal", weight = 150, stack = true, close = false, description = "",
+    charcoal = { label = "Charcoal", weight = 75, stack = true, close = false, description = "",
         client = { image = "charcoal.png", }
     },
 
     -- Raw Gems
-    sapphire = { label = "Sapphire", weight = 150, stack = true, close = false, description = "A shiny Sapphire gemstone!",
+    sapphire = { label = "Sapphire", weight = 50, stack = true, close = false, description = "",
         client = { image = "sapphire.png", }
     },
-    ruby = { label = "Ruby", weight = 150, stack = true, close = false, description = "A shiny Ruby gemstone!",
+    ruby = { label = "Ruby", weight = 50, stack = true, close = false, description = "",
         client = { image = "ruby.png", }
     },
-    emerald = { label = "Emerald", weight = 150, stack = true, close = false, description = "A shiny Emerald gemstone!",
+    emerald = { label = "Emerald", weight = 50, stack = true, close = false, description = "",
         client = { image = "emerald.png", }
     },
-    diamond = { label = "Diamond", weight = 150, stack = true, close = false, description = "A shiny Diamond gemstone!",
+    diamond = { label = "Diamond", weight = 50, stack = true, close = false, description = "",
         client = { image = "diamond.png", }
     },
 
     -- Jewelry
-    gold_diamond_ring = { label = "Diamond Gold Ring", weight = 200, stack = true, close = true, description = "A diamond ring seems like the jackpot to me!",
+    gold_diamond_ring = { label = "Diamond Gold Ring", weight = 275, stack = true, close = true, description = "",
         client = { image = "gold_diamond_ring.png", }
     },
-    gold_emerald_ring = { label = "Emerald Gold Ring", weight = 200, stack = true, close = false, description = "",
+    gold_emerald_ring = { label = "Emerald Gold Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "gold_emerald_ring.png", }
     },
-    gold_ruby_ring = { label = "Ruby Gold Ring", weight = 200, stack = true, close = false, description = "",
+    gold_ruby_ring = { label = "Ruby Gold Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "gold_ruby_ring.png", }
     },
-    gold_sapphire_ring = { label = "Sapphire Gold Ring", weight = 200, stack = true, close = false, description = "",
+    gold_sapphire_ring = { label = "Sapphire Gold Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "gold_sapphire_ring.png", }
     },
 
-    silver_diamond_ring = { label = "Diamond Silver Ring", weight = 200, stack = true, close = false, description = "",
+    silver_diamond_ring = { label = "Diamond Silver Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "silver_diamond_ring.png", }
     },
-    silver_emerald_ring = { label = "Emerald Silver Ring", weight = 200, stack = true, close = false, description = "",
+    silver_emerald_ring = { label = "Emerald Silver Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "silver_emerald_ring.png", }
     },
-    silver_ruby_ring = { label = "Ruby Silver Ring", weight = 200, stack = true, close = false, description = "A sparkling ring of sapphire.",
+    silver_ruby_ring = { label = "Ruby Silver Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "silver_ruby_ring.png", }
     },
-    silver_sapphire_ring = { label = "Sapphire Silver Ring", weight = 200, stack = true, close = false, description = "",
+    silver_sapphire_ring = { label = "Sapphire Silver Ring", weight = 275, stack = true, close = false, description = "",
         client = { image = "silver_sapphire_ring.png", }
     },
 
-    gold_diamond_necklace = { label = "Diamond Gold Necklace", weight = 200, stack = true, close = false, description = "",
+    gold_diamond_necklace = { label = "Diamond Gold Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "gold_diamond_necklace.png", }
     },
-    gold_emerald_necklace = { label = "Emerald Gold Necklace", weight = 200, stack = true, close = false, description = "",
+    gold_emerald_necklace = { label = "Emerald Gold Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "gold_emerald_necklace.png", }
     },
-    gold_ruby_necklace = { label = "Ruby Gold Necklace", weight = 200, stack = true, close = false, description = "",
+    gold_ruby_necklace = { label = "Ruby Gold Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "gold_ruby_necklace.png", }
     },
-    gold_sapphire_necklace = { label = "Sapphire Gold Necklace", weight = 200, stack = true, close = false, description = "",
+    gold_sapphire_necklace = { label = "Sapphire Gold Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "gold_sapphire_necklace.png", }
     },
 
-    silver_diamond_necklace = { label = "Diamond Silver Necklace", weight = 200, stack = true, close = false, description = "",
+    silver_diamond_necklace = { label = "Diamond Silver Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "silver_diamond_necklace.png", }
     },
-    silver_emerald_necklace = { label = "Emerald Silver Necklace", weight = 200, stack = true, close = false, description = "",
+    silver_emerald_necklace = { label = "Emerald Silver Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "silver_emerald_necklace.png", }
     },
-    silver_ruby_necklace = { label = "Ruby Silver Necklace", weight = 200, stack = true, close = false, description = "",
+    silver_ruby_necklace = { label = "Ruby Silver Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "silver_ruby_necklace.png", }
     },
-    silver_sapphire_necklace = { label = "Sapphire Silver Necklace", weight = 200, stack = true, close = false, description = "",
+    silver_sapphire_necklace = { label = "Sapphire Silver Necklace", weight = 600, stack = true, close = false, description = "",
         client = { image = "silver_sapphire_necklace.png", }
     },
 
-    gold_diamond_earring = { label = "Diamond Gold Earrings", weight = 200, stack = true, close = false, description = "",
+    gold_diamond_earring = { label = "Diamond Gold Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "gold_diamond_earring.png", }
     },
-    gold_emerald_earring = { label = "Emerald Gold Earrings", weight = 200, stack = true, close = false, description = "",
+    gold_emerald_earring = { label = "Emerald Gold Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "gold_emerald_earring.png", }
     },
-    gold_ruby_earring = { label = "Ruby Gold Earrings", weight = 200, stack = true, close = false, description = "",
+    gold_ruby_earring = { label = "Ruby Gold Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "gold_ruby_earring.png", }
     },
-    gold_sapphire_earring = { label = "Sapphire Gold Earrings", weight = 200, stack = true, close = false, description = "",
+    gold_sapphire_earring = { label = "Sapphire Gold Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "gold_sapphire_earring.png", }
     },
 
-    silver_diamond_earring = { label = "Diamond Silver Earrings", weight = 200, stack = true, close = false, description = "",
+    silver_diamond_earring = { label = "Diamond Silver Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "silver_diamond_earring.png", }
     },
-    silver_emerald_earring = { label = "Emerald Silver Earrings", weight = 200, stack = true, close = false, description = "",
+    silver_emerald_earring = { label = "Emerald Silver Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "silver_emerald_earring.png", }
     },
-    silver_ruby_earring = { label = "Ruby Silver Earrings", weight = 200, stack = true, close = false, description = "",
+    silver_ruby_earring = { label = "Ruby Silver Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "silver_ruby_earring.png", }
     },
-    silver_sapphire_earring = { label = "Sapphire Silver Earrings", weight = 200, stack = true, close = false, description = "",
+    silver_sapphire_earring = { label = "Sapphire Silver Earrings", weight = 250, stack = true, close = false, description = "",
         client = { image = "silver_sapphire_earring.png", }
     },
 
     -- Ingots
-    ironingot = { label = "Iron Ingot", weight = 1000, stack = true, close = false, description = "",
+    ironingot = { label = "Iron Ingot", weight = 750, stack = true, close = false, description = "",
         client = { image = "ironingot.png", }
     },
-    leadingot = { label = "Lead Ingot", weight = 1000, stack = true, close = false, description = "",
+    leadingot = { label = "Lead Ingot", weight = 750, stack = true, close = false, description = "",
         client = { image = "leadingot.png", }
     },
-    copperingot = { label = "Copper Ingot", weight = 1000, stack = true, close = false, description = "",
+    copperingot = { label = "Copper Ingot", weight = 750, stack = true, close = false, description = "",
         client = { image = "copperingot.png", }
     },
-    goldingot = { label = "Gold Ingot", weight = 1000, stack = true, close = false, description = "",
+    goldingot = { label = "Gold Ingot", weight = 750, stack = true, close = false, description = "",
         client = { image = "goldingot.png", }
     },
-    silveringot = { label = "Silver Ingot", weight = 1000, stack = true, close = false, description = "",
+    silveringot = { label = "Silver Ingot", weight = 750, stack = true, close = false, description = "",
         client = { image = "silveringot.png", }
     },
 
@@ -219,16 +219,16 @@
     pickaxe = { label = "Pickaxe", weight = 1000, stack = false, close = false, description = "",
         client = { image = "pickaxe.png", }
     },
-    miningdrill = { label = "Mining Drill", weight = 1000, stack = false, close = false, description = "",
+    miningdrill = { label = "Mining Drill", weight = 3000, stack = false, close = false, description = "",
         client = { image = "miningdrill.png", }
     },
-    mininglaser = { label = "Mining Laser", weight = 900, stack = false, close = false, description = "",
+    mininglaser = { label = "Mining Laser", weight = 2000, stack = false, close = false, description = "",
         client = { image = "mininglaser.png", }
     },
-    drillbit = { label = "Drill Bit", weight = 10, stack = true, close = false, description = "",
+    drillbit = { label = "Drill Bit", weight = 50, stack = true, close = false, description = "",
         client = { image = "drillbit.png", }
     },
-    goldpan = { label = "Gold Panning Tray", weight = 10, stack = true, close = false, description = "Don't worry you'll hit gold eventually!",
+    goldpan = { label = "Gold Panning Tray", weight = 50, stack = true, close = false, description = "Don't worry you'll hit gold eventually!",
         client = { image = "goldpan.png", }
     },
 
