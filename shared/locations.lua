@@ -110,7 +110,7 @@ Locations = {
             Enable = true,
             Job = nil,
             Blip = {
-                Enable = true,
+                Enable = false,
                 name = "Mine Shaft",
                 coords = vec4(-596.74, 2090.99, 131.41, 16.6),
                 sprite = 527,
@@ -177,7 +177,7 @@ Locations = {
             Enable = true,
             Job = nil,
             Blip = {
-                Enable = true,
+                Enable = false,
                 name = "Quarry",
                 coords = vec4(2960.9, 2754.14, 43.71, 204.58),
                 sprite = 527,
@@ -221,7 +221,7 @@ Locations = {
                 col = 81,
             },
             Store = {
-                { name = "Cave Shop", coords = vec4(2908.8, 2643.6, 43.26, 328.32), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
+                { name = "Cave Shop", coords = vec4(2908.8, 2643.6, -100, 328.32), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD", },
             },
             Smelting = {
                 { blipEnable = false, name = "Smelter", coords = vec3(2921.81, 2653.42, 43.15), sprite = 436, col = 1, },
@@ -286,7 +286,7 @@ Locations = {
                 col = 81,
             },
             Store = {
-                { name = "Mine", coords = vec4(-594.96, 2091.3, 131.47, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
+                { name = "Mine", coords = vec4(-594.96, 2091.3, -100, 67.65), model = `G_M_M_ChemWork_01`, scenario = "WORLD_HUMAN_CLIPBOARD",  },
             },
             Lights = { Enable = false, },
             OrePositions = {
