@@ -37,3 +37,26 @@
 
 ### If you think I did a good job here, consider donating as it keeps by lights on and my cat round:
 ## [JixelPatterns Kofi](https://ko-fi.com/jixelpatterns)
+
+# Steps for Qbox
+- Add Inventory Items
+
+## Rarity
+Trash = {
+  "bottle",
+  "can"
+}
+Common = {
+  "plastic",
+  "glass",
+  "rubber",
+}
+Uncommon = {
+  "metalscrap",
+  "iron",
+  "aluminum"
+}
+Rare = {
+  "copper",
+  "steel"
+}
