@@ -41,7 +41,7 @@
 # Steps for Qbox
 - Add Inventory Items
 
--- JIM-MINING --
+    -- JIM-MINING --
     stone = { label = "Stone", weight = 2000, stack = true, close = false, description = "Stone woo",
         client = { image = "stone.png", }
     },
